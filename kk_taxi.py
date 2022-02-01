@@ -18,8 +18,8 @@ import cv2
 import requests
 
 
-LIMIT_PX = 3000
-LIMIT_BYTE = 3000*3000
+LIMIT_PX = 2048
+LIMIT_BYTE = 2048*2048
 LIMIT_BOX = 40
 
 
