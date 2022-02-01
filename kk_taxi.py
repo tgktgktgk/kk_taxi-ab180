@@ -17,10 +17,10 @@ from openpyxl.styles import Alignment
 import cv2
 import requests
 
-
+# 이미지 제한 가로, 세로 2048px 이하, 최대 용량 2MB
 LIMIT_PX = 2048
-LIMIT_BYTE = 2048*2048
-LIMIT_BOX = 40
+## LIMIT_BYTE = 1024*1024
+## LIMIT_BOX = 40
 
 
 def kakao_ocr_resize(image_path: str):
